@@ -1,0 +1,253 @@
+/* * {
+    box-sizing: border-box;
+} */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef2f2b9;
+    padding: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.active {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.active ul {
+    display: flex;
+    list-style: none;
+}
+
+.active li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.active a {
+    text-decoration: none;
+    font-weight: 55px;
+    color: rgb(16, 16, 16);
+
+}
+
+.active a:hover {
+    color: rgb(104, 74, 239);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-left: 30px;
+    background-color: #dbdedb;
+    color: #232323;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_button:hover {
+    background-color: #82ef8d;
+}
+
+.menu_button:active {
+    transform: scale(0.95);
+}
+
+.lang-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(32, 32, 30);
+}
+.lang-subtitle{
+   font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background-image: url(img.form/button5.jpg);
+    background-size: cover;
+    opacity: 0.8; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.date-time-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.date-time-form label {
+    margin-top: 10px;
+}
+
+.date-time-form input[type="date"],
+.date-time-form input[type="time"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.date-time-form .next-btn {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.step1,
+.step2_hide {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.step2_hide,
+.success-message {
+    display: none;
+}
+
+.step1 {
+    width: 600px;
+    margin: 0;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: rgba(255, 255, 255, 0.703);
+    border: 1px solid rgba(171, 166, 166, 0.746);
+    border-radius: 20px;
+}
+
+.step2_hide{
+    width: 600px;
+    margin: 0;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: rgba(255, 255, 255, 0.703);
+    border: 1px solid rgba(171, 166, 166, 0.746);
+    border-radius: 20px;
+}
+
+
+
+input[type="time"] {
+    display: block;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+.menu_button {
+    display: inline-block;
+        padding: 10px 20px;
+        margin-left: 100px;
+        margin-top: 0;
+        margin-left: 30px;
+        background-color: #dbdedb;
+        color: #232323;
+        border: none;
+        border-radius: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .menu_button:hover {
+        background-color: #82ef8d;
+    }
+
+
+.next-btn,
+.submit-btn {
+    display: block;
+    width: 300px;
+    padding: 20px 5px;
+    text-decoration: none;
+    margin: 10px auto;
+    border-radius: 50px;
+    border: #555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #bdd5ed 0%, #82ef8d 51%, #9ad9e8 100%);
+    background-size: 250% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    cursor: pointer;
+    }
+    
+.button:hover {
+    background-position: right center;
+    }
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.lang-political-conf {
+    background-color: #d7d5d5;
+    height: 110px;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.lang-political-conf a {
+    font-size: 15px;
+    color: #3b3a3a;
+    text-decoration: none;
+    
+}
+
+.lang-political-conf a:hover {
+    color: rgb(104, 74, 239);
+    transition: all 0.3s ease-in-out;
+}
+
+.lang-subtitle{
+    text-align: center;
+    
+}
+
+/* Ваши стили для мобильных устройств здесь */
+@media (min-width: 600px) and (max-width: 800px) {
+   
+}

@@ -1,0 +1,245 @@
+body {
+    background-image: url(img.reviews/body4.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    /* Высота футера */
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef2f2b9;
+    padding: 10px;
+}
+
+.active {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.active ul {
+    display: flex;
+    list-style: none;
+}
+
+.active li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.active a {
+    text-decoration: none;
+    font-weight: 55px;
+    color: rgb(16, 16, 16);
+
+}
+
+.active a:hover {
+    color: rgb(104, 74, 239);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-left: 30px;
+    background-color: #dbdedb;
+    color: #232323;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_button:hover {
+    background-color: #6cee79;
+}
+
+.menu_button:active {
+    transform: scale(0.95);
+}
+.change-lang{
+    background-color: #fcfcfc;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 5px;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 8px 10px 5px 2px rgba(36, 34, 35, 0.2);
+    cursor: pointer;
+}
+.change-lang option {
+    background-color: #f6f2f2;
+    color: #000;   
+}
+.container {
+    background-color: #E5EBE4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.form-1 {
+    width: 600px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.779);
+    border: 1px solid rgba(171, 166, 166, 0.746);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.414);
+    
+}
+
+.form-1 h2 {
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.form-1 label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 14px;
+    
+}
+
+.form-1 input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.414);
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form-1 input[type="submit"] {
+    display: block;
+    width: 300px;
+    padding: 20px 5px;
+    text-decoration: none;
+    margin: 10px auto;
+    border-radius: 50px;
+    border: #555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #bdd5ed 0%, #82ef8d 51%, #9ad9e8 100%);
+    background-size: 250% auto;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.form-1 input[type="submit"]:hover {
+    background-position: right center;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.lang-political-conf {
+    background-color: #e5e5e5;
+    height: 70px;
+    padding: 15px;
+    bottom: 0;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.lang-political-conf a {
+    font-size: 15px;
+    color: #3b3a3a;
+    text-decoration: none;
+
+}
+
+.lang-political-conf a:hover {
+    color: rgb(104, 74, 239);
+    transition: all 0.3s ease-in-out;
+}
+
+.lang-subtitle {
+    text-align: center;
+}
+
+ /* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    /* .active {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    } */
+
+    .active li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu_button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+  .container {
+      padding: 20px;
+  }
+    .form-1 {
+        width: 80%;
+        margin: 0;
+    }
+
+    .form-1 h2 {
+        font-size: 18px;
+    }
+
+    .form-1 input[type="submit"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+   
+    .lang-political-conf {
+        position: relative;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+}

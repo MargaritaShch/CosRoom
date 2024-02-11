@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    
+}
+/*lANGUAGE*/
+.change-lang{
+    background-color: #fcfcfc;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 5px;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 8px 10px 5px 2px rgba(36, 34, 35, 0.2);
+    cursor: pointer;
+}
+.change-lang option {
+    background-color: #f6f2f2;
+    color: #000;   
+}
+
+/*MENU*/
+.active {
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.active li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.active a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black; 
+}
+
+/*Название сайта и подзаголвоок*/
+.lang-name {
+    background-color: #E5EBE4;
+    gap: 20px;
+    justify-content: center;
+    height: 300px;
+    
+}
+.lang-title-name{
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+
+}
+.lang-subtitle-name {
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*ABOUT US*/
+.lang-about-active-content {
+    margin: auto;
+}
+
+.lang-section-about-us{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lang-subtitle-about-us {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+/*Наши преимущества*/
+.services {
+   margin: auto;
+}
+
+.lang-services-content {
+    padding: 50px;
+    display: flex;
+}
+
+.block-serv {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+
+.lang-service-subtitle-3,
+.lang-service-subtitle-2,
+.lang-service-subtitle-1 {
+    color: #9D7E55;
+    font-weight: bold;
+}
+
+.lang-discribe-service{
+    padding-top: 10px;
+}
+
+/*PRICE*/
+.lang-price{
+    text-align: center;
+    background-color: #E5EBE4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    height: 400px;
+}
+
+.lang-price-title{
+    margin: auto;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 35px;
+    color: #1F3716;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lang-table-price {
+    margin: auto; 
+}
+
+.lang-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px 
+}
+
+.lang-serv-1{
+    margin-right: 90px;
+}
+
+.lang-serv-2{
+    margin-right: 115px;
+}
+
+.lang-serv-3{
+    margin-right: 150px;
+}
+
+.lang-serv-4 {
+    margin-right: 133px;
+}
+
+.lang-serv-5{
+    margin-right: 140px;
+}
+
+/*TOUCH US*/
+.aplication{
+    background-color: #E5EBE4; 
+    margin-top: -30px;
+    padding-bottom: 100px;
+}
+
+.applic-1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-style: larger;
+    color: #9D7E55;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.applic-2{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.lang-form-aplication {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.applic-2{
+    width: 500px;
+}
+
+.form{
+    margin: auto;
+    display: grid;
+}
+
+.lang-email{
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    padding: 10px;
+    margin:auto;
+    border: 0.5px solid rgba(128, 128, 128, 0.332);
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.lang-button{
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #8798805e;
+    color: #9D7E55;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.comments{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin:auto;
+    border: 0.5px solid rgba(128, 128, 128, 0.332);
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.lang-button:hover{
+    background-color: #bff0c4;
+}
+
+/*REVIEWS*/
+.reviews {
+    background-color: #E5EBE4;
+    
+}
+.lang-title-reviews {
+    text-align: center;
+    padding: 30px;
+
+}
+.lang-submit {
+    margin: auto;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: #9D7E55;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lang-submit:hover {
+    background-position: right center;
+}
+.reviews-list {
+    margin: auto;
+    display: flex;
+   
+}
+.review {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border: 0.5px solid #a5c0a0a2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.697);
+    width: 250px;
+    height: 180px;
+}
+
+.review p {
+    padding-top: 10px;
+ 
+}
+
+
+/*CONTSCT*/
+.main-footer {
+    background-color:#bdbbbb55;
+}
+.lang-contact-title {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.main-footer section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.lang-our-socail,
+.lang-map-title,
+.lang-footer-menu-title,
+.lang-connect-with-us {
+    
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+}
+.lang-map-title{
+    margin: auto;
+    padding-bottom: 15px;
+}
+.lang-footer-menu a,
+.lang-footer-contact a,
+.social-icons a {
+    text-decoration: none;
+    font-weight: 55px;
+    color: rgb(16, 16, 16);
+    font-family: 'Raleway', sans-serif;
+}
+.lang-footer-menu ul,
+.lang-footer-contact ul,
+.social-icons ul {
+    padding-top: 15px;
+}
+.lang-footer-menu li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+.social-icons a:hover,
+.lang-footer-contact a:hover,
+.lang-footer-menu a:hover {
+    background-color: #eee8e8;
+    border-radius: 20px;   
+}
+
+.lang-footer-menu li,
+.lang-footer-contact li,
+.social-icons li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+
+
+/*Адаптивность*/
+ /* Стили для мобильных устройств */
+ @media only screen and (max-width: 767px) {
+   body { 
+        padding-top: 50px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+/*MENU*/
+    .menu {
+        margin-right: 0;
+        margin-left: 0; 
+    }
+    .lang-menu_button {
+        margin-left: 0;
+    }
+    .lang-name {
+        height: 250px;
+    }
+    .lang-title-name {
+        font-size: 3rem;
+    }
+    .lang-subtitle-name {
+        margin-top: -230px;
+        font-size: 1rem;
+    }
+/*ABOUT*/
+    .lang-about-active-content {
+        height: auto;
+    }
+/*OUR ADV*/
+    .lang-services-content {
+        margin-left: 0;
+    }
+    .block-serv {
+        height: auto;
+         width: 10%; 
+    }
+    .lang-discribe-service {
+         width: 10%;  
+    }
+/*PRICE*/
+    .lang-table-price {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .lang-get-in-touch-us {
+        height: 200px;
+    }
+    .lang-get-in-touch-us button {
+        padding: 20px 30px;
+    }
+/*REVIEWS*/
+    .reviews-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .review {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+} 
+
+  Стили для планшетов и ноутбуков
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+/*MENU*/
+    .active {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    .lang-name {
+        height: 400px;
+    }
+    .lang-title-name {
+        font-size: 3.5rem;
+        margin-top: 10px;
+    }
+    .lang-subtitle-name {
+        font-size: 1.5rem;
+        margin-top: -250px;
+    }
+/*ABOUT US*/
+    .lang-about-active-content {
+        height: 400px;
+    }
+    .lang-section-about-us{
+    margin-top: -80px;
+    }
+/*OUR ADV.*/
+    .services {
+        height: 550px;
+        padding-top: 20px;
+    }
+    .lang-service-title {
+        margin-right: 190px;
+    }
+    .lang-services-content {
+        margin-left: 300px; 
+    }
+    .block-serv {
+        height: 140px;
+        width: 320px;
+    }
+    .lang-service-subtitle-3,
+    .lang-service-subtitle-2,
+    .lang-service-subtitle-1 {
+        font-size: 15px;
+        margin-top: 2px;
+        margin-bottom: 3px;
+    }
+    .lang-discribe-service {
+        width: 600px;
+        font-size: 15px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+/*PRICE*/
+    .lang-price-title {
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .lang-table-price {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 100%;
+        height: 250px;
+    }
+    .lang-row {
+        margin-bottom: 5px;
+    }
+/*TOUCH*/
+    .lang-get-in-touch-us {
+        height: 200px;
+    }
+/*REVIEWS*/
+    .reviews {
+        padding: 20px;
+    }
+    .lang-title-reviews {
+        font-size: 20px;
+    }
+    .review {
+        width: 40%;
+        padding: 10px;
+    }
+/*CONTACT*/
+    .lang-contact-title {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Стили для настольных компьютеров и некоторых ноутбуков */
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+         margin: 0;
+         padding: 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: normal;
+    }
+    
+    h1 {
+        font-size: 3em;
+    }
+     h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2em; 
+    }
+/* HEADER */
+    head {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+/* lANGUAGE */
+    .change-lang {
+        background-color: #fcfcfc;
+        color: #000;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 8px 10px 5px 2px rgba(36, 34, 35, 0.2);
+        cursor: pointer;
+    }
+    .change-lang option {
+        background-color: #f6f2f2;
+        color: #000;
+    }
+/* MENU */
+    .active {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .active li {
+        list-style-type: none;
+        font-size: 25px;
+    }
+    .active a {
+        text-decoration: none;
+        font-weight: 55px;
+        color: rgb(16, 16, 16);
+        font-family: 'Raleway', sans-serif;
+    }
+    .active a:hover {
+        color: grey;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .lang-title-name {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
