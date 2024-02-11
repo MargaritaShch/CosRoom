@@ -12,15 +12,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fef2f2b9;
     padding: 10px;
+    background: rgb(240,234,234);
+    background: linear-gradient(339deg, rgba(240,234,234,1) 33%, rgba(245,245,220,0.8407738095238095) 70%);
 }
 
 .active {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
 }
 
 .active ul {
@@ -29,45 +30,22 @@ header {
 }
 
 .active li {
-    margin-right: 20px;
     list-style-type: none;
+    font-weight: bold;
+    padding-bottom: 25px;
 }
 
 .active a {
     text-decoration: none;
-    font-weight: 55px;
-    color: rgb(16, 16, 16);
+    font-size: 22px;
+    color: rgb(72, 68, 68);
 
 }
 
 .active a:hover {
-    color: rgb(104, 74, 239);
-    transition: all 0.3s ease-in-out;
+    color: gray;
 }
 
-.menu_button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-left: 100px;
-    margin-top: 0;
-    margin-left: 30px;
-    background-color: #dbdedb;
-    color: #232323;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-.menu_button:hover {
-    background-color: #6cee79;
-}
-
-.menu_button:active {
-    transform: scale(0.95);
-}
 .change-lang{
     background-color: #fcfcfc;
     color: #000;
@@ -90,7 +68,8 @@ header {
     color: #000;   
 }
 .container {
-    background-color: #E5EBE4;
+    background: rgb(229,235,228);
+    background: linear-gradient(339deg, rgba(229,235,228,1) 36%, rgba(205,223,183,0.9976365546218487) 69%);
     display: flex;
     flex-direction: column;
     align-items: center;

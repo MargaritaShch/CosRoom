@@ -46,9 +46,9 @@ const translation = {
     en: "About us",
   },
   "subtitle-about-us": {
-    ge: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ad accusantium harum ducimus quod corrupti alias veritatis doloremque culpa, est facilis molestiae quia quaerat commodi facere nostrum? Quibusdam, vel ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque aliquam, quae, quasi est accusamus, quis neque eos asperiores aliquid magnam? Assumenda odio ratione deleniti voluptates cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla culpa illo, rem perferendis velit suscipit maiores tempore itaque, debitis accusamus incidunt unde aperiam, autem vitae similique nihil amet cum voluptatibus.",
+    ge: "მაღალკვალიფიციური სპეციალისტი, ჩვენ გთავაზობთ კანის მოვლისა და სილამაზის პროცედურების ფართო სპექტრს. ჩვენ დაგეხმარებით მიაღწიოთ ჯანსაღ, ლამაზ და მოვლილ კანს, გამოავლინოთ თქვენი ბუნებრივი სილამაზის პოტენციალი. თითოეული ადამიანი უნიკალურია და ამიტომ ჩვენი მიდგომა ინდივიდუალურია. ჩვენ ყურადღებით მოუსმინეთ თქვენს საჭიროებებს და მოლოდინებს, რათა შემოგთავაზოთ საუკეთესო გადაწყვეტილებები თქვენი კანისთვის. ჩვენ ვცდილობთ მოგაწოდოთ არა მხოლოდ შედეგი, არამედ დაუვიწყარი გამოცდილება და სრული კმაყოფილება ჩვენი მომსახურებით.",
     ru: "Высококвалифицированный специалист, предлагает широкий спектр услуг по уходу за кожей и косметическим процедурам.Поможем вам достичь здоровой, красивой и ухоженной кожи, раскрывая ваш естественный потенциал красоты.Каждый человек уникален, и поэтому наш подход индивидуальный.Внимательно слушаем ваши потребности и ожидания, чтобы предложить вам оптимальные решения для вашей кожи. Мы стремимся предоставить вам не только результаты, но и незабываемый опыт и полное удовлетворение от нашего обслуживания.",
-    en: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ad accusantium harum ducimus quod corrupti alias veritatis doloremque culpa, est facilis molestiae quia quaerat commodi facere nostrum? Quibusdam, vel ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque aliquam, quae, quasi est accusamus, quis neque eos asperiores aliquid magnam? Assumenda odio ratione deleniti voluptates cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla culpa illo, rem perferendis velit suscipit maiores tempore itaque, debitis accusamus incidunt unde aperiam, autem vitae similique nihil amet cum voluptatibus.",
+    en: "A highly qualified specialist, we offer a wide range of skin care and beauty treatments. We will help you achieve healthy, beautiful and well-groomed skin, revealing your natural beauty potential. Each person is unique, and therefore our approach is individual. We carefully listen to your needs and expectations in order to offer you the best solutions for your skin. We strive to provide you with not only results, but also an unforgettable experience and complete satisfaction from our service..",
   },
   "service-title": {
     ge: "ჩვენი უპირატესობები",
@@ -74,6 +74,21 @@ const translation = {
     ge: "მოქნილი გადახდის სისტემა",
     ru: "Гибкая система оплаты",
     en: "Flexible payment system",
+  },
+  "discribe-service-1": {
+    ge: "ჩვენ აღჭურვეთ ჩვენი ოფისი უახლესი ტექნიკით, რათა მოგაწოდოთ უსაფრთხო და ეფექტური მკურნალობა. ჩვენ დიდ ყურადღებას ვაქცევთ აღჭურვილობის შერჩევას, რათა მოგაწოდოთ საუკეთესო შედეგი.",
+    ru: "Мы оснастили наш кабинет самым современным оборудованием, чтобы обеспечить вам безопасные и эффективные процедуры. Мы уделяем большое внимание выбору оборудования, чтобы предоставить вам лучший результат.",
+    en: "We have equipped our office with state-of-the-art equipment to provide you with safe and effective treatments. We pay great attention to the selection of equipment to provide you with the best results.",
+  },
+  "discribe-service-2": {
+    ge: "ჩვენს ოფისში მუშაობენ გამოცდილი და კვალიფიციური სპეციალისტები, რომლებიც მზად არიან შემოგთავაზონ მაღალი ხარისხის მომსახურება. ჩვენ მუდმივად ვაუმჯობესებთ ჩვენს უნარებს და მივყვებით სილამაზის ინდუსტრიის უახლეს ტენდენციებს.",
+    ru: "В нашем кабинете работают опытные и квалифицированные специалисты, которые готовы предложить вам высококачественные услуги. Мы постоянно совершенствуем свои навыки и следим за последними тенденциями в индустрии красоты.",
+    en: "Our office employs experienced and qualified specialists who are ready to offer you high-quality services. We constantly improve our skills and follow the latest trends in the beauty industry.",
+  },
+  "discribe-service-3": {
+    ge: "ჩვენი სილამაზის სალონი გთავაზობთ მოსახერხებელ და მოქნილ გადახდის ვარიანტებს, რათა მკურნალობა ყველასთვის ხელმისაწვდომი გახდეს. ჩვენ ვაფასებთ თქვენს კომფორტს და ვცდილობთ თქვენი ვიზიტი მაქსიმალურად მოსახერხებელი გავხადოთ.",
+    ru: "Наш косметологический кабинет предлагает удобные и гибкие варианты оплаты, чтобы сделать процедуры доступными для всех. Мы ценим ваш комфорт и стремимся сделать ваше посещение максимально удобным.",
+    en: "Our beauty salon offers convenient and flexible payment options to make treatments accessible to everyone. We value your comfort and strive to make your visit as convenient as possible.",
   },
   "price-title": {
     ge: "ფასი",
@@ -110,30 +125,55 @@ const translation = {
     ru: "Цены",
     en: "Prices",
   },
-  "lang-serv-1":{
+  "serv-1":{
     ge: "თერაპიული კოსმეტოლოგია",
     ru: "Терапевтическая косметология",
     en: "Therapeutic cosmetology",
   },
-  "lang-serv-2":{
+  "serv-2":{
     ge: "საინექციო კოსმეტოლოგია",
     ru: "Инъекционная косметология",
     en: "Injection cosmetology",
   },
-  "lang-serv-3":{
+  "serv-3":{
     ge: "აკნეს და აკნეს შემდგომი მკურნალობა",
     ru: "Лечение акнте и постакне",
     en: "Treatment of acne and post-acne",
   },
-  "lang-serv-4":{
+  "serv-4":{
     ge: "ლაზერული კოსმეტოლოგია",
     ru: "Лазерная косметология",
     en: "Prices",
   },
-  "lang-serv-5":{
+  "serv-5":{
     ge: "ტექნიკის კოსმეტოლოგია",
     ru: "Аппаратная косметология",
     en: "Hardware cosmetology",
+  },
+  "applic-2":{
+    ge: "დატოვეთ მოთხოვნა თქვენთვის მოსახერხებელი დროისა და თარიღის არჩევისთვის",
+    ru: "Оставьте заявку, чтобы выбрать <br>удобное для вас время и дату",
+    en: "Leave a request to choose a time and date convenient for you",
+  },
+  "button":{
+    ge: "დარეგისტრირდით",
+    ru: "Записаться",
+    en: "Sign up",
+  },
+  "review-1":{
+    ge: "ძალიან კმაყოფილი ვარ შედეგით! სილამაზის სალონში ჩატარებულმა პროცედურებმა ჩემი ყველა მოლოდინი გაამართლა. სპეციალისტების პროფესიონალურმა მიდგომამ და მყუდრო გარემომ შექმნა იდეალური კომბინაცია სრული დასვენებისა და კანის მოვლისთვის. Გმადლობთ",
+    ru: "Очень довольна результатом! Процедуры в косметологическом кабинете оправдали все мои ожидания. Профессиональный подход специалистов и уютная атмосфера создали идеальное сочетание для полного расслабления и ухода за кожей. Благодарю!",
+    en: "I'm very pleased with the result! The procedures in the beauty salon met all my expectations. The professional approach of the specialists and the cozy atmosphere have created the ideal combination for complete relaxation and skin care. Thank you",
+  },
+  "review-2":{
+    ge: "შესანიშნავი ადგილი მათთვის, ვინც აფასებს თავის დროსა და მომსახურების ხარისხს. პროფესიონალი კოსმეტოლოგები, თანამედროვე აღჭურვილობა და ინდივიდუალური მიდგომა - ეს ყველაფერი ამ ოფისს ერთ-ერთ საუკეთესოდ აქცევს. Ყველაზე მეტად რეკომენდირებული!",
+    ru: "Отличное место для тех, кто ценит свое время и качество услуг. Профессиональные косметологи, современное оборудование и индивидуальный подход - всё это делает этот кабинет одним из лучших. Очень рекомендую!",
+    en: "An excellent place for those who value their time and quality of services. Professional cosmetologists, modern equipment and an individual approach - all this makes this office one of the best. Highly recommend!",
+  },
+  "review-3":{
+    ge: "კოსმეტოლოგიურ სალონში სტუმრობა ჩემთვის ნამდვილი აღმოჩენა იყო! მყუდრო გარემომ, ყურადღებიანმა სპეციალისტებმა და ეფექტურმა პროცედურებმა ჩემი ვიზიტი დაუვიწყარი გახადა. აუცილებლად დაბრუნდება ისევ!",
+    ru: "Посещение косметологического кабинета стало для меня настоящим открытием! Уютная обстановка, внимательные специалисты и эффективные процедуры сделали мое посещение незабываемым. Обязательно вернусь снова!",
+    en: "Visiting the cosmetology salon was a real discovery for me! The cozy atmosphere, attentive specialists and effective procedures made my visit unforgettable. Will definitely come back again!p",
   },
   "active-footer-3": {
     ge: "მიმოხილვები",
