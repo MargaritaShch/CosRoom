@@ -100,6 +100,11 @@ const translation = {
     ru: "Записаться на прием",
     en: "Make an appointment",
   },
+  "feedback":{
+    ge: "Გმადლობთ! თქვენი განაცხადი მიღებულია! ადმინისტრატორი დაგიკავშირდებათ 30 წუთში.",
+    ru: "Спасибо! Ваш заявка принята! Администартор свяжется с вами в течении 30 минут.",
+    en: "Thank you! Your application has been accepted! The administrator will contact you within 30 minutes",
+  },
   "title-reviews": {
     ge: "გამოხმაურება ჩვენი კლიენტებისგან",
     ru: "Отзывы наших клиентов",
@@ -284,21 +289,13 @@ const translation = {
     });
   });
 
-  const nextBtn = document.querySelector(".next-btn");
-  const submitBtn = document.querySelector(".submit-btn");
-  const step1 = document.querySelector(".step1");
-  const step2 = document.querySelector(".step2_hide");
-  const successMessage = document.querySelector(".success-message");
 
-  nextBtn.addEventListener("click", () => {
-    step1.style.display = "none";
-    step2.style.display = "block";
-  });
+  const form = document.querySelector(".form");
+  const buttonSignUp = document.querySelector(".lang-button");
+  const message = document.querySelector(".lang-feedback");
 
-  submitBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    step2.style.display = "none";
-    successMessage.style.display = "block";
-  });
-
-  submitBtn.toUpper
+buttonSignUp.addEventListener("click", (event) => {
+    event.preventDefault();
+    form.style.display = "none";
+    message.style.display = "block";
+});

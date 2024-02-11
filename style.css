@@ -9,6 +9,10 @@ body {
 }
 
 .menu{
+    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
     background: rgb(240,234,234);
     background: linear-gradient(339deg, rgba(240,234,234,1) 33%, rgba(245,245,220,0.8407738095238095) 70%);
 }
@@ -34,46 +38,51 @@ body {
 
 /*MENU*/
 .active {
-  
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 25px;
 }
 
 .active li {
     list-style-type: none;
     font-weight: bold;
-    padding-bottom: 25px;
+    padding-bottom: 1%;
 }
 
 .active a{
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(72, 68, 68);
    
 }
 
 .active a:hover{
-    color: gray;
+    color: #808080;
 }
 
 /*Название сайта и подзаголвоок*/
 .lang-name {
     margin-top: -27px;
-    background: rgb(229,235,228);
+    background: #e5ebe4;
     background: linear-gradient(339deg, rgba(229,235,228,1) 36%, rgba(205,223,183,0.9976365546218487) 69%);
     justify-content: center;
-    height: 300px;  
+    height: 400px; 
+    animation: background 10s infinite alternate; 
 }
-
+@keyframes background {
+    50% {
+        background:  rgb(200, 230, 194);
+        box-shadow: 0 -200px 100px -100px  rgb(202, 230, 198) inset;
+    }
+  }
 .lang-title-name{
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: normal;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: 50px;
     text-align: center;
     color: rgb(72, 68, 68);
@@ -149,7 +158,11 @@ body {
     font-size: 20px;
     height: 400px;
 }
-
+.lang-table-price{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 .lang-price-title{
     margin: auto;
     font-family: 'Raleway', sans-serif;
@@ -164,12 +177,14 @@ body {
     margin: auto; 
 }
 
-.lang-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px 
+.lang-row-1 {
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 40px;
 }
-
+.lang-row-2{
+    line-height: 40px;
+}
 .lang-serv-1{
     margin-right: 90px;
 }
@@ -223,7 +238,12 @@ body {
 .applic-2{
     width: 500px;
 }
-
+.lang-feedback{
+    color: #1F3716;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+}
 .form{
     margin: auto;
     display: grid;
@@ -240,6 +260,7 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
 .lang-button{
     margin: auto;
     cursor: pointer;
@@ -318,20 +339,21 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.697);
     width: 300px;
-    height: 180px;
+    height: 200px;
 }
 
 .lang-review-1,
 .lang-review-2,
 .lang-review-3{
     padding-top: 10px;
- 
 }
 
 
 /*CONTSCT*/
 .main-footer {
-    background-color:#bdbbbb55;
+    margin: auto;
+    background: rgb(229,235,228);
+    background: linear-gradient(339deg, rgba(229,235,228,0.7455357142857143) 34%, rgba(176,175,175,0.48503151260504207) 75%);
 }
 .lang-contact-title {
     font-family: 'Raleway', sans-serif;
@@ -343,20 +365,32 @@ body {
 .main-footer section {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
+    
 }
+
+.lang-footer-menu,
+.lang-footer-contact,
+.lang-our-social-container{
+    display: grid;
+    justify-content: left;
+}
+
 .lang-our-socail,
 .lang-map-title,
 .lang-footer-menu-title,
 .lang-connect-with-us {
-    
+    margin-right: 30px;
     font-family: 'Raleway', sans-serif;
-    text-align: center; 
 }
+
 .lang-map-title{
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
 }
+
 .lang-footer-menu a,
 .lang-footer-contact a,
 .social-icons a {
@@ -406,6 +440,6 @@ body {
 /* Стили для настольных компьютеров и некоторых ноутбуков */
 @media only screen and (min-width: 1600px) {
     .lang-submit {
-        margin-left: 43%;
+        margin-left: 44%;
     }
 }
