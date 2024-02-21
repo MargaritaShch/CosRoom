@@ -1,4 +1,4 @@
-# The Cosmetology Cabinet Website (Customized Customer Template)
+# :nail_care: The Cosmetology Cabinet Website (Customized Customer Template)
 
 ## :hammer_and_wrench: Tools:
   ### - HTML; 
